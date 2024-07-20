@@ -1,0 +1,25 @@
+.btn{
+    display: inline-block;
+    padding: 0 2.4rem;
+    line-height: 3.9rem;
+    font-size: 1.92rem;
+    font-weight: 500;
+    transition: all .3s;
+    border: 2.8px solid transparent;
+    border-radius: 3rem;
+    // #89C6FF;
+    &-primary{
+        border-radius: 3rem;
+        background: linear-gradient(98deg, #89C6FF -38.38%, #3633D0 71.88%);
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    &-outline{
+        border-color: #89C6FF;
+        padding: 0 3.2rem;
+        &:hover{
+            background-color: #3633D0;
+        }
+    }
+}

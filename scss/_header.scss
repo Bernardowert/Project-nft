@@ -1,0 +1,34 @@
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 2024;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    height: 8.8rem;
+    .container{
+        @include flex-Justify(space-between);
+    }
+    nav{
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 3rem;
+            li{
+                a{
+                    font-size: 1.8rem;
+                    transition: color .3s;
+                    &:hover{
+                        color: #ff800f;
+                    }
+                }
+            }
+        }
+    }
+    .logo{
+        font-size: 2.705rem;
+        font-weight: 700;
+        letter-spacing: -0.676px;
+    }
+}

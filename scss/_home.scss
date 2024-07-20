@@ -1,0 +1,20 @@
+.s-hero{
+    padding-top: 18.2rem;
+    .area-text{
+        flex: 1;
+        max-width: 61.5rem;
+        p{
+            font-size: 1.649rem;
+            line-height: 152.023%; /* 25.068px */
+            letter-spacing: 0.33px;
+            margin-top: 2.8rem;
+            margin-bottom: 3.8rem;
+            max-width: 52.2rem;
+        }
+        .btns{
+            display: flex;
+            align-items: center;
+            gap: 2.8rem;
+        }
+    }
+}
